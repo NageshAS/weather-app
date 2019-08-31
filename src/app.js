@@ -89,37 +89,6 @@ app.get('*', (req, res) => {
     })
 })
 
-
-
-// // app.com
-// app.get('',(req,res)=>{
-//     res.send('<h1>Weather</h1>')
-// })
-
-// // app.com/help
-// app.get('/help',(req,res)=>{
-//     res.send([{
-//         name:'Nagesh',
-//         age:26
-//     },{
-//         name:'Shrad',
-//         age:25
-//     }])
-// })
-
-// // app.com/about
-// app.get('/about',(req,res)=>{
-//     res.send('<h1>About</h1>')
-// })
-
-// // app.com/weather
-// app.get('/weather',(req,res)=>{
-//     res.send({
-//         location: 'Bengulru',
-//         forecast:'25 degree out there.'
-//     })
-// })
-
 app.listen(3000, () => {
     console.log("App webserver is up on port 3000")
 })
