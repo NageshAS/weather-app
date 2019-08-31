@@ -7,7 +7,7 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault()
 
     const address = search.value
-    const query = 'http://localhost:3000/weather?address='+address
+    const query = '/weather?address='+address
 
     messageOne.textContent = 'loading...'
     messageTwo.textContent= ''
